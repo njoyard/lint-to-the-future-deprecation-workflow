@@ -1,0 +1,18 @@
+{
+  "solution": {
+    "lint-to-the-future-deprecation-workflow": {
+      "impact": "patch",
+      "oldVersion": "0.1.0",
+      "newVersion": "0.1.1",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-06-25)\n\n* lint-to-the-future-deprecation-workflow 0.1.1 (patch)\n\n#### :house: Internal\n* `lint-to-the-future-deprecation-workflow`\n  * [#1](https://github.com/njoyard/lint-to-the-future-deprecation-workflow/pull/1) chore: add release-plan ([@njoyard](https://github.com/njoyard))\n\n#### Committers: 1\n- Nicolas Joyard ([@njoyard](https://github.com/njoyard))\n"
+}
