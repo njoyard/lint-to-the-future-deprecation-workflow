@@ -1,6 +1,6 @@
 # lint-to-the-future-deprecation-workflow
 
-`lint-to-the-future-deprecation-workflow` is a plugin for [lint-to-the-future](https://github.com/mansona/lint-to-the-future) to add deprecations silenced with[ember-cli-deprecation-workflow](https://github.com/ember-cli/ember-cli-deprecation-workflow) to your LttF dashboards.
+`lint-to-the-future-deprecation-workflow` is a plugin for [lint-to-the-future](https://github.com/mansona/lint-to-the-future) to add deprecations silenced with [ember-cli-deprecation-workflow](https://github.com/ember-cli/ember-cli-deprecation-workflow) to your LttF dashboards.
 
 For more information about how lint-to-the-future works [checkout the readme](https://github.com/mansona/lint-to-the-future#readme).
 
