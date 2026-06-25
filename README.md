@@ -10,7 +10,7 @@ This plugin reports one violation for each silenced deprecation in your project.
 
 Install `lint-to-the-future-deprecation-workflow` alongside `lint-to-the-future` as a dev dependency. Lint-to-the-future will find and call the plugin automatically.
 
-## Caveats
+## Caveats
 
 - This plugin has no ignore/remove capability. The `ignore` operation is a noop - this is by design. Update your `ember-cli-deprecation-workflow` configuration manually.
 - Your configuration must be static for this plugin to work - that is you must pass a an object literal with static content to `setupDeprecationWorkflow`.
