@@ -1,0 +1,33 @@
+{
+  "name": "lint-to-the-future-deprecation-workflow",
+  "version": "0.1.0",
+  "repository": "https://github.com/njoyard/lint-to-the-future-deprecation-workflow",
+  "description": "Add silenced deprecations to Lint-to-the-future dashboard",
+  "license": "MIT",
+  "author": "Nicolas Joyard <nicolas@njoyard.fr>",
+  "type": "module",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "ember-cli-deprecation-workflow": "^4.0.0"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">= 20.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.4",
+    "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.7",
+    "@babel/traverse": "^7.29.7"
+  }
+}
