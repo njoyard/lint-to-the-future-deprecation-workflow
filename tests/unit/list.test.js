@@ -13,32 +13,32 @@ describe('list', () => {
   it('lists from app js file', () => {
     inProject('js');
     expect(list()).toEqual({
-      'silenced-1': 'app/deprecation-workflow.js',
-      'silenced-2': 'app/deprecation-workflow.js',
+      'silenced-1': ['app/deprecation-workflow.js'],
+      'silenced-2': ['app/deprecation-workflow.js'],
     });
   });
 
   it('lists from app ts file', () => {
     inProject('ts');
     expect(list()).toEqual({
-      'silenced-1': 'app/deprecation-workflow.ts',
-      'silenced-2': 'app/deprecation-workflow.ts',
+      'silenced-1': ['app/deprecation-workflow.ts'],
+      'silenced-2': ['app/deprecation-workflow.ts'],
     });
   });
 
   it('lists from addon dummy app js file', () => {
     inProject('js-addon');
     expect(list()).toEqual({
-      'silenced-1': 'tests/dummy/app/deprecation-workflow.js',
-      'silenced-2': 'tests/dummy/app/deprecation-workflow.js',
+      'silenced-1': ['tests/dummy/app/deprecation-workflow.js'],
+      'silenced-2': ['tests/dummy/app/deprecation-workflow.js'],
     });
   });
 
   it('lists from addon dummy app ts file', () => {
     inProject('ts-addon');
     expect(list()).toEqual({
-      'silenced-1': 'tests/dummy/app/deprecation-workflow.ts',
-      'silenced-2': 'tests/dummy/app/deprecation-workflow.ts',
+      'silenced-1': ['tests/dummy/app/deprecation-workflow.ts'],
+      'silenced-2': ['tests/dummy/app/deprecation-workflow.ts'],
     });
   });
 
@@ -46,8 +46,8 @@ describe('list', () => {
     inProject('custom');
     process.env.LTTF_DEPRECATIONS_FILE = 'custom/custom.js';
     expect(list()).toEqual({
-      'silenced-1': 'custom/custom.js',
-      'silenced-2': 'custom/custom.js',
+      'silenced-1': ['custom/custom.js'],
+      'silenced-2': ['custom/custom.js'],
     });
   });
 
@@ -69,9 +69,9 @@ describe('list', () => {
   it('lists from multiple setup calls', () => {
     inProject('multiple');
     expect(list()).toEqual({
-      'silenced-1': 'app/deprecation-workflow.js',
-      'silenced-2': 'app/deprecation-workflow.js',
-      'silenced-3': 'app/deprecation-workflow.js',
+      'silenced-1': ['app/deprecation-workflow.js'],
+      'silenced-2': ['app/deprecation-workflow.js'],
+      'silenced-3': ['app/deprecation-workflow.js'],
     });
   });
 });
