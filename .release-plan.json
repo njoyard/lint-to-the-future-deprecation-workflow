@@ -2,17 +2,17 @@
   "solution": {
     "lint-to-the-future-deprecation-workflow": {
       "impact": "patch",
-      "oldVersion": "0.1.0",
-      "newVersion": "0.1.1",
+      "oldVersion": "0.1.1",
+      "newVersion": "0.1.2",
       "tagName": "latest",
       "constraints": [
         {
           "impact": "patch",
-          "reason": "Appears in changelog section :house: Internal"
+          "reason": "Appears in changelog section :bug: Bug Fix"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2026-06-25)\n\n* lint-to-the-future-deprecation-workflow 0.1.1 (patch)\n\n#### :house: Internal\n* `lint-to-the-future-deprecation-workflow`\n  * [#1](https://github.com/njoyard/lint-to-the-future-deprecation-workflow/pull/1) chore: add release-plan ([@njoyard](https://github.com/njoyard))\n\n#### Committers: 1\n- Nicolas Joyard ([@njoyard](https://github.com/njoyard))\n"
+  "description": "## Release (2026-06-26)\n\n* lint-to-the-future-deprecation-workflow 0.1.2 (patch)\n\n#### :bug: Bug Fix\n* `lint-to-the-future-deprecation-workflow`\n  * [#3](https://github.com/njoyard/lint-to-the-future-deprecation-workflow/pull/3) fix: add missing extensions for imports ([@njoyard](https://github.com/njoyard))\n\n#### Committers: 1\n- Nicolas Joyard ([@njoyard](https://github.com/njoyard))\n"
 }

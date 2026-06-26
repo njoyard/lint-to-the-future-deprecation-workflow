@@ -1,6 +1,6 @@
 {
   "name": "lint-to-the-future-deprecation-workflow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add silenced deprecations to Lint-to-the-future dashboard",
   "repository": "https://github.com/njoyard/lint-to-the-future-deprecation-workflow",
   "license": "MIT",
