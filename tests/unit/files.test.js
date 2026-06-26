@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it } from 'vitest';
-import getDeprecationWorkflowFile from '../../lib/files';
-import { inProject } from '../util';
+import getDeprecationWorkflowFile from '../../lib/files.js';
+import { inProject } from '../util.js';
 
 describe('getDeprecationWorkflowFile', () => {
   const initialCwd = process.cwd();

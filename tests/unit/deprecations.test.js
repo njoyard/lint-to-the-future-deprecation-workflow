@@ -5,7 +5,7 @@ import getSilencedDeprecations, {
   getNodeValue,
   getObjectExpressionValue,
   getSetupObjects,
-} from '../../lib/deprecations';
+} from '../../lib/deprecations.js';
 
 describe('findSetupNames', () => {
   it('finds import setupDeprecationWorkflow', () => {
