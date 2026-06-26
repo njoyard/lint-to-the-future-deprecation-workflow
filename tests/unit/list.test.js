@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from 'vitest';
-import { inProject } from '../util';
+import { inProject } from '../util.js';
 import list from '../../lib/list.js';
 
 describe('list', () => {
